@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang-"en-US">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> Customer Survey Form</title>
+
+</head>
+<h4> Please Enter The Details Below </h4>
+
+<form action="form-handling-url" method="post">
+
+<fieldset>
+    <legend> Add User </legend>
+
+    <div>
+        <label for="firstName"> First Name </label>
+        <input type="text" id="firstName" name="firstname">
+
+    </div>
+
+    <div>
+        <label for="lastName"> Last Name </label>
+        <input type="text" id="lastName" name="lasttname">
+
+    </div>
+
+    <div>
+        <label for="email"> Email </label>
+        <input type="email" id="email" name="email_address">
+
+    </div>
+
+    <div>
+        <label for="status"> User Status </label>
+        <select id="status" name="user_status">
+            <option value="student"> Student</option>
+            <option value="instructor"> Instructor</option>
+            <option value="guest"> Guest</option>
+        </select>
+
+    </div>
+
+
+</fieldset>
+
+<fieldset>
+    <legend> Details </legend>
+    <div>
+    <p> Choose your favorite Programming Language</p>
+    <input type="radio" id="html" name="fav_prog_language" value="HTML">
+    <label for="html">HTML</label><br>
+
+    <input type="radio" id="C_Language" name="fav_prog_language" value="C_Language">
+    <label for="C_Language">C Language</label><br>
+
+    <input type="radio" id="JavaScript" name="fav_prog_language" value="JavaScript">
+    <label for="JavaScript">JavaScript</label><br>
+
+    <div>
+
+    <div>
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments"></textarea>
+    </div>
+
+    <div>
+        <label for="registrationDate">Registration Date</label>
+        <input type="date" id="registrationDate" name="reg_Date">
+    </div>
+
+    <div>
+        <input type="checkbox" id="RegNewsLetter" name="RegNewsLetter" value="Yes">
+        <label for="RegNewsLetter"> Register for News Letter? </label><br>
+
+        <input type="checkbox" id="Terms" name="AgreeTerms" value="Yes">
+        <label for="AgreeTerms"> I Agree to the Standard Terms and Conditions?</label><br>
+
+    </div>
+
+    <div>
+
+        <button type="submit"> Submit The Details</button>
+    </div>
+
+</fieldset>
+
+
+</form>
+
+<body>
+
+</body>
+</html>
